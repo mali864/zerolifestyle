@@ -9,6 +9,8 @@
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="zero.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <style>
     html,
@@ -48,7 +50,8 @@
     }
   </style>
 </head>
-<body>
+
+ <body>
   <div class="box">
     <div class="image">
       <img src="https://zerolifestyle.co/cdn/shop/files/logo.png?v=1676901766&width=250" alt="" height="25px">
@@ -70,16 +73,16 @@
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide"> <img
-          src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Flash_desktop.webp?v=1719476631" alt=""> </div>
+          src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Flash_desktop.webp?v=1719476631" alt="" class="swiper-imag"> </div>
       <div class="swiper-slide"><img
           src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Rover_e9ee45d1-586a-44c8-b354-8b73274ae5ec.webp?v=1719314591"
-          alt=""> </div>
+          alt="" class="swiper-imag"> </div>
       <div class="swiper-slide"><img
-          src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Infinity.webp?v=1719314591" alt=""></div>
+          src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Infinity.webp?v=1719314591" alt="" class="swiper-imag"></div>
       <div class="swiper-slide"><img
-          src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Delta_dsktp.webp?v=1719319160" alt=""></div>
+          src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Delta_dsktp.webp?v=1719319160" alt="" class="swiper-imag"></div>
       <div class="swiper-slide"><img
-          src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Gravity.webp?v=1719314592" alt=""></div>
+          src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/Gravity.webp?v=1719314592" alt="" class="swiper-imag"></div>
 
     </div>
     <!-- <div class="swiper-button-next"></div>
@@ -87,7 +90,7 @@
     <div class="swiper-pagination"></div>
   </div> -->
   </div>
-  <div class="pics">
+  <div class="pics" data-aos="flip-left">
     <div>
       <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/200x200-quantum---ZBuds_1.png?v=1709907088"
         alt="" width="100px" height="100px">
@@ -152,7 +155,7 @@
     Z Buds
 
     <a href="https://zerolifestyle.co/pages/earbuds-zbuds" class="view"
-      style="margin-left: 20px; text-decoration: none;">View All> </a>
+      style="margin-left: 10px; text-decoration: none;">View All> </a>
   </div>
 
   <div class="card-box">
@@ -196,7 +199,7 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> 
 
     <div class="product-box">
       <div class="gradient-text">
@@ -605,30 +608,28 @@
   </div>
 
 
-  <h6 style="text-align: center;">Shop by LifeStyle</h6>
+  <h6>Shop by LifeStyle</h6>
 
   <div class="img-container">
     <div>
-      <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/professional.png?v=1709805282" alt=""
-        height="350px">
+      <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/professional.png?v=1709805282" alt="" class="imagesF">
+     </div>
+    <div>
+      <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/fitness.png?v=1709805282" alt="" class="imagesF">
     </div>
     <div>
-      <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/fitness.png?v=1709805282" alt="" height="350px">
+      <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/fashion.png?v=1709805282" alt="" class="imagesF">
     </div>
     <div>
-      <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/fashion.png?v=1709805282" alt="" height="350px">
-    </div>
-    <div>
-      <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/adventure.png?v=1709805282" alt=""
-        height="350px">
+      <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/adventure.png?v=1709805282" alt="" class="imagesF">
     </div>
   </div>
-  <div class="fawad">
-    <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/FAWAD_KEYVISUALS_2.0.webp?v=1710833635" alt=""
-      width="100%">
+  <!-- fawad -->
+  <div class="fawad-imge">
+    <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/FAWAD_KEYVISUALS_2.0.webp?v=1710833635" alt="" class="image3">
   </div>
 
-  <h5 style="font-size: 20px;">Offer of The Day </h5>
+  <h5 class="offer">Offer of The Day </h5>
 
 
   <div class="card-box">
@@ -837,33 +838,32 @@
     </div>
   </div>
 
-  <div style="margin: 20px 0px">
-    <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/App-banner-website_1.webp?v=1719476855" alt=""
-      width="100%">
+  <div class="phone-watch">
+    <img src="https://cdn.shopify.com/s/files/1/0722/8106/3702/files/App-banner-website_1.webp?v=1719476855" alt="" class="phone-watch-imag">
   </div>
 
   <h6>Zero Lifestyle Stories</h6>
 
   <div class="litle-pics">
     <div><img src="https://zerolifestyle.co/cdn/shop/articles/Untitled_design_16.png?v=1705069219&width=360" alt=""
-        height="160px" class="picture">
+       class="picture">
       <h1>Everything You Need to Know <br> About Smartwatch Screens</h1>
 
     </div>
     <div><img src="https://zerolifestyle.co/cdn/shop/articles/Untitled_design_15.png?v=1705067077&width=360" alt=""
-        height="160px" class="picture">
+         class="picture">
       <h1>Must-Have Health Features <br> in a Smartwatch in 2024 </h1>
     </div>
     <div><img src="https://zerolifestyle.co/cdn/shop/articles/Untitled_design_14.png?v=1705064995&width=360" alt=""
-        height="160px" class="picture">
+       class="picture">
       <h1>New Year, New Fitness Goals <br> with Zero Lifestyle</h1>
     </div>
     <div><img src="https://zerolifestyle.co/cdn/shop/articles/Untitled_design_13.png?v=1702628226&width=360" alt=""
-        height="160px" class="picture">
+       class="picture">
       <h1>12.12 2023 Sale-Reasons to <br> Invest in a Smartwatch</h1>
     </div>
     <div><img src="https://zerolifestyle.co/cdn/shop/articles/Untitled_design_12.png?v=1702563572&width=360" alt=""
-        height="160px" class="picture">
+       class="picture">
       <h1>Achieve your commitment to <br> fitness with a Smartwatch</h1>
     </div>
   </div>
@@ -990,17 +990,17 @@
     </div>
     <div class="b4">
       <ul class="ul2">
-          <li style="font-size:22px; margin-bottom: 18px;">POLICY</li>
-          <LI>Privacy Policy</LI>
-          <li>Warranty Policy</li>
-          <li>Return Policy</li>
-          <li>Corporate Policy</li>
+        <li style="font-size:22px; margin-bottom: 18px;">POLICY</li>
+        <LI>Privacy Policy</LI>
+        <li>Warranty Policy</li>
+        <li>Return Policy</li>
+        <li>Corporate Policy</li>
       </ul>
     </div>
   </div>
-  <hr/>
+  <hr />
   <div class="footer-copyright">
-    <div>© 2024 Zero Lifestyle. All Rights Reserved. | 
+    <div>© 2024 Zero Lifestyle. All Rights Reserved. |
       <a href="https://zerolifestyle.co/sitemap.xml" style="text-decoration: none; color: #000;">Sitemap</a>
     </div>
     <div>Powerd by
@@ -1013,7 +1013,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  
+
   <script>
     var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
@@ -1032,6 +1032,11 @@
       },
     });
   </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>

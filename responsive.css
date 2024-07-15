@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@media screen and (max-width:480px) and (min-width:250px){
+
+
+    .pics{
+        margin-top: 20px;
+        display: flex;
+        gap: 5px;
+        font-weight: bold;
+        flex-wrap: wrap;
+}
+    h1{
+        text-align: center;
+        font-size: 10px;
+        font-weight: 13px;
+    } 
+    .navbar{
+    
+        width: 150px;
+        color: white;
+        align-items: center;
+        flex-grow: 2;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        flex-wrap: wrap;
+        display: none;
+    }
+    .image{
+        
+        width: 150px;
+        margin-left:10px ;
+        flex-grow: 1;
+        filter: brightness(0) invert(1)!important;
+        align-content: center;
+        
+    
+    }
+    .icons{
+        align-items: center;
+        width: 80px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .z-buds{
+        display: inline-block;
+        margin: 10px 10px;
+        font-size: 15px;
+        font-weight: bold;
+        flex-wrap: wrap;
+    }
+    .view{
+        font-size: 9px;
+        color:black ;
+        list-style: none;
+    }
+
+   
+    .card-box{
+        width: 15%;
+        height:20% ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        display: none;
+        
+    }
+    .product-box{
+        padding-left: 10px;
+        height: 92%;
+        width: 19%;
+        border: 1px solid gray;
+        background-color: rgb(233, 229, 229);
+        justify-items: center;
+        border-radius: 30px;
+        flex-wrap:wrap ;
+    }
+    .container{
+        font-size: 15px;
+        height: 70%;
+        width: 85%;
+        border: 1.5px solid grey;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .image1{
+        filter: brightness(0);
+    
+    }
+    h6{
+        font-size: 20px;
+    }
+    .img-container{
+        margin-left:12%;
+        width: 35%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .imagesF{
+        width: 100%;
+        height: 100%;
+    }
+    .image3{
+        margin-top: 0px;
+        height: 30%;
+        width: 100%;
+    }
+    .fawad-img{
+        margin-top: 0px;
+        height: 8%;
+        width: 8%;
+        
+    }
+}
+    
